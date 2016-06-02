@@ -1,0 +1,12 @@
+[package]
+name = "rmp-rpc"
+version = "0.1.0"
+authors = ["Paul Lietar <paul@lietar.net>"]
+
+[dependencies.quick-error]
+git = "https://github.com/tailhook/quick-error"
+version = "1.0.0"
+
+[dependencies.rmp]
+git = "https://github.com/plietar/msgpack-rust"
+version = "0.7"
